@@ -1,0 +1,42 @@
+/* css reset */
+*{
+     margin: 0;
+     padding: 0;
+}
+
+/* Naviigation bar */
+#navbar{
+     display: flex;
+     align-items: center;
+}
+
+/*Navigation bar : Logo and Images */
+#logo{
+     margin: -13px -23px ;  
+     
+}
+#logo img{
+     height: 64px;
+     margin: 24px 36px;
+}
+#navbar ul{
+     display: flex; 
+     margin-left: 10px;
+}
+#navbar ul li{
+     list-style: none;
+}
+#navbar ul li a{
+     color: black;
+     display: block;
+     margin: 10px 10px;
+     padding: 10px 10px;
+     border-radius: 20px;
+     text-decoration: none;
+}
+#navbar ul li a:hover{
+     color: white;
+     background-color: rgb(245, 102, 102);
+    
+}
+
